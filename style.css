@@ -1,6 +1,6 @@
 *, *::after *::before {
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -10,11 +10,12 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .clock {
-    width: 555px;
-    height: 555px;
+    width: 600px;
+    height: 600px;
     background-color: rgba(255, 255, 255, .8);
     border-radius: 50%;
     border: 2px solid black;
@@ -71,7 +72,7 @@ body {
 }
 
 .clock .hand.second {
-    width: 3px;
+    width: 2px;
     height: 45%;
     background-color: red;
 }
@@ -83,7 +84,7 @@ body {
 }
 
 .clock .hand.hour {
-    width: 10px;
+    width: 12px;
     height: 35%;
     background-color: black;
 }
